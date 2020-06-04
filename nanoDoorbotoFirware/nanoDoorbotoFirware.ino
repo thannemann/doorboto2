@@ -1,4 +1,4 @@
-// nanoDoorbotoFirmware.ino ~ Copyright 2017  Manchester Makerspace ~ License MIT
+// nanoDoorbotoFirmware.ino ~ Copyright 2020  Manchester Makerspace ~ License MIT
 // This sketch sends card ids to the raspberry pi over the serial port when scanned, and switches relay output based on the response from the pi.
 // Member is provided with status via LCD and Blinking LED's
 
