@@ -15,10 +15,6 @@
 #define RED_LED   2 //digital 2
 #define GREEN_LED 3 //igital 3
 
-// the following pins have been what we have used in the past
-//#define SS_PIN    8
-//#define RST_PIN   7
-
 // the following pins are based on the git hub documentation for the rfid 
  #define SS_PIN    10
  #define RST_PIN   9
