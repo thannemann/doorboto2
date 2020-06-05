@@ -11,13 +11,15 @@
 //Define variables 
 
 #define OPEN_TIME 3000
-#define RELAY     4 //digital 4
+
 #define RED_LED   2 //digital 2
 #define GREEN_LED 3 //igital 3
+#define RELAY     4 //digital 4
 
 // the following pins are based on the git hub documentation for the rfid 
- #define SS_PIN    10
- #define RST_PIN   9
+#define RST_PIN   9
+#define SS_PIN    10
+
 
 #define INTERFACE Serial // quickly switch between Serial and Serial1 for testing purposes
 #define BUFFER_SIZE 32    // buffer for serial recieve and get UID
