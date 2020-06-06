@@ -39,6 +39,7 @@ var arduino = {                          // does not need to be connected to an 
     },
     denyAccess: function(msg, member){               // is called on failed authorization
         arduino.serial.write('<d>');                 // d char denies access: wakkas help arduino know this is a distinct command
+	}
 };
 
 // High level start up sequence
