@@ -36,9 +36,11 @@ var arduino = {                          // does not need to be connected to an 
     },
     grantAccess: function(memberName){               // is called on successful authorization
         arduino.serial.write('<a>');                 // a char grants access: wakkas help arduino know this is a distinct command
+		console.log('<a>');					        // echo <a> to console
     },
     denyAccess: function(msg, member){               // is called on failed authorization
         arduino.serial.write('<d>');                 // d char denies access: wakkas help arduino know this is a distinct command
+		console.log('<d>');					        // echo <d> to console
 	}
 };
 
